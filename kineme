@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middleware Example</title>
+</head>
+<body>
+    <h1>Middleware Example</h1>
+    <p>This is a simple HTML page demonstrating the concept of middleware.</p>
+
+    <!-- Your middleware script -->
+    <script>
+        // Example middleware function
+        function middlewareFunction(event) {
+            // Add your middleware logic here
+            console.log("Middleware executed");
+        }
+
+        // Attach middleware to an event (e.g., click event)
+        document.addEventListener('click', middlewareFunction);
+    </script>
+</body>
+</html>
